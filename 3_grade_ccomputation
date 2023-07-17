@@ -1,0 +1,11 @@
+# these are the given grades, you will indiccate the prelim grade, midterm grade, and the final grade.
+pgrade = 80
+mgrade = 75
+fgrade = 88
+
+# this will calculate the average grade of a students using the formula average is equals to prelim grade x 0.3 + midterm gradex 0.3 + final grade but this time x 0.4
+ave = pgrade * 0.3 + mgrade * 0.3 + fgrade * 0.4
+
+
+# this line will then display the average grade of the student 
+print("The average grade is:", ave)
